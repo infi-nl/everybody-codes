@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Infi | Security cameras Utrecht</title>
+  <!-- Video camera Icon by Martz90 available at http://www.iconarchive.com/show/circle-icons-by-martz90/video-camera-icon.html under a Creative Commons Attribution-Noncommercial-No Derivate 4.0. Full terms at http://creativecommons.org/licenses/by-nc-nd/4.0 -->
+  <link rel="icon" type="image/x-icon" href="video-camera-icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      font-size: 0.8em;
+    }
+
+    a {
+      color: #ff6e00;
+    }
+
+    #source {
+      background: rgba(27, 31, 35, 0.08);
+      width: 290px;
+      padding: 8px;
+      border-radius: 20px;
+      margin: 15px auto;
+      text-align: center;
+    }
+
+    #source a {
+      font-weight: bold;
+    }
+
+    table td {
+      vertical-align: top;
+    }
+
+    table thead tr:nth-child(1) th {
+      height: 75px;
+      background-color: #272727;
+      color: #7F7F7C;
+      font-size: 3.0em;
+    }
+
+    table tr:nth-child(2) th {
+      text-align: left;
+      height: 25px;
+    }
+
+    h1 {
+      padding: 20px 0 20px 55px;
+      margin: 0 0 0 20px;
+      background: url("video-camera-icon.png") no-repeat;
+      background-size: 40px;
+      background-position: 0 50%;
+    }
+
+    #cameraTableContainer {
+      margin: 0 0 20px 0;
+      width: 100%;
+      padding: 0 20px;
+      height: 100%;
+      vertical-align: top;
+    }
+
+    #cameraTableContainer>td {
+      width: 25%;
+      text-align: center;
+    }
+
+    #cameraTableContainer table {
+      width: 450px;
+      margin: auto;
+      height: 100%;
+      border-collapse: collapse;
+    }
+
+    #cameraTableContainer table tbody tr {
+      height: 25px;
+      vertical-align: middle;
+    }
+
+    #cameraTableContainer table tbody td {
+      padding: 5px 0;
+    }
+
+    #cameraTableContainer table td:nth-child(1) {
+      height: 15px !important;
+      margin-right: 15px;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+
+    #cameraTableContainer table tr:last-child td {
+      height: 100%;
+    }
+
+    #map {
+      margin: auto;
+      height: 500px;
+      width: 100%;
+    }
+  </style>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+  <h1>Security cameras Utrecht</h1>
+  <div id="map"></div>
+  <div id="source">
+    source:
+    <a href="https://data.overheid.nl/data/dataset/camera-s">https://data.overheid.nl/data/dataset/camera-s</a>
+  </div>
+  <main>
+    <table id="cameraTableContainer">
+      <tbody>
+        <tr>
+          <td>
+            <table id="column3">
+              <thead>
+                <tr>
+                  <th colspan="4">Cameras 3</th>
+                </tr>
+                <tr>
+                  <th>Number</th>
+                  <th>Name</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </td>
+          <td>
+            <table id="column5">
+              <thead>
+                <tr>
+                  <th colspan="4">Cameras 5</th>
+                </tr>
+                <tr>
+                  <th>Number</th>
+                  <th>Name</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </td>
+          <td>
+            <table id="column15">
+              <thead>
+                <tr>
+                  <th colspan="4">Cameras 3 &amp; 5</th>
+                </tr>
+                <tr>
+                  <th>Number</th>
+                  <th>Name</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </td>
+          <td>
+            <table id="columnOther">
+              <thead>
+                <tr>
+                  <th colspan="4">Cameras Overig</th>
+                </tr>
+                <tr>
+                  <th>Number</th>
+                  <th>Name</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>
