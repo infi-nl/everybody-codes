@@ -1,6 +1,6 @@
 # Keep Talking and Everybody Codes
 
-Een repository als startpunt om te laten zien hoe jij code schrijft en over code denkt.
+Een repository om te laten zien hoe jij code schrijft en over code denkt.
 Een startpunt voor een goed gesprek over ons vak!
 
 ## Context
@@ -22,16 +22,13 @@ Het antwoord is wat ons betreft heel duidelijk: **nee**!
 _Het heeft wél iets weg van een test_ (en dat is ook de bedoeling!), maar er zijn een aantal belangrijke verschillen:
 
 - Het bepaalt niet of je wordt uitgenodigd (okay, tenzij je iets _heel_ geks doet). Dat hadden we namelijk al bedacht voordat we je hier naartoe stuurden. Je krijgt dus sowieso de kans om je keuzes toe te lichten.
-- We willen dat je dit timeboxed: 2 tot 4 uur. Het is logisch dat je dan misschien niet aan alles toe komt. Dat geeft niet. Focus op laten zien wat je belangrijk vindt, en vertel ons over je keuzes daarin.
+- We willen dat je dit **timeboxed: 2 tot 4 uur**. Het is logisch dat je dan misschien niet aan alles toe komt. Dat geeft niet. Focus op laten zien wat je belangrijk vindt, en vertel ons over je keuzes daarin.
 - Voor een 'test' kun je slagen of falen, of krijg je een eindcijfer. Dit is echter puur _input_ voor een volgend gesprek.
 
 ## De Opdracht
 
 De opdracht bestaat uit drie onderdelen waarin je gebruik maakt van de dataset die je vindt in [data/cameras-defb.csv](data/cameras-defb.csv).
-Je mag de opdracht doen in een taal en tech stack naar keuze.
-Gebruik je iets anders dan C#, PHP, Java, Python, of Ruby, vergeet dan niet wat beknopte 'How to Run'-instructies toe te voegen.
-Wees wel zeer kritisch over gebruik van libraries en vooral ook van frameworks:
-denk goed na of het helpt te bewijzen hoe je graag code schrijft, en waar je goed in bent.
+Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn vooral bekend met C#, JavaScript, PHP, Java).
 
 ## CLI
 
