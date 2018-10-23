@@ -1,16 +1,15 @@
 # Keep Talking and Everybody Codes
 
-A repository to show how you write and think about code.
-Used as a starting point for a good discussion about our profession.
+A repository for showing how you write and think about code.
+Used as a starting point for a good discussion about our job.
 
 ## Context
 
 You probably came here because you have a second interview with us. In the second interview, we'd like to dive more into technology. We want to see how you write code, how you think and what you think is important when writing code. To do this we'd like to kickstart our discussion about this.
 
-There are many ways to do this. Maybe you have open source projects that you'd like to share. Maybe you'd like to show some code from a previous project. Those would be fine, but maybe you don't have something like that (yet). Therefore, we have this repository: a starting point to write some code that we can use as a subject for our discussion.
+There are many ways to do this. Maybe you have open source projects that you'd like to share. Maybe you'd like to show some code from a previous project. Those would be fine, but maybe you don't have something like that (yet). Therefore, we have this repository: an exercise that can use as a starting point to write some code that we can use as a subject for our discussion.
 
-
-You might wonder "Is this a _test_?"?
+You might wonder "Is this a _test_"?
 The answer is very clear to us: **no**!
 _It is something like a test_, but there are some important differences:
 
@@ -19,11 +18,10 @@ _It is something like a test_, but there are some important differences:
 - We want you to **timebox this to 2 to 4 hours**. It makes sense that you don't get to finish all in that time. Focus on showing what you think is important, and explain those choices to us.
 - You can fail a 'test', but not this exercise, it's purely used as _input_ for our next talk.
 
-
 ## The exerise
 
 The exercise consists of 3 parts in which you use the dataset you can find at [data/cameras-defb.csv](data/cameras-defb.csv).
-You can chose a language and tech stack of your own choice (we are mostly familiar with wij zijn vooral bekend met C#, JavaScript, PHP, Java). 
+You can chose a language and tech stack of your own choice (we are most familiar with C#, JavaScript, PHP, Java). 
 
 ## CLI
 
@@ -51,8 +49,6 @@ Expected output:
 ```
 
 ## API
-
-Serveer de data uit de csv vanuit een web-API, zodat een webapplicatie die data ergens kan ophalen.
 
 Serve the data through a Web-API, such that a web application can fetch the data.
 
@@ -82,7 +78,7 @@ Besides that, things will show when we actually discuss what you made...
 
 "_Do you accept.... pull requests?_"
 Of couse!
-Buy it isn't the primary goal, so rather focus on the exercise itself.
+But it isn't the primary goal, so rather focus on the exercise itself.
 Should you have - after the exercise - some suggestions for how to improve, or would you like to correct a typo: keep them PR's coming!
 Or open an issue if you have questions.
 
@@ -93,4 +89,4 @@ Huh?
 > Keep Talking and Everybody Codes
 
 "_What's that?_"
-Sorry, pun related to [a cool game](http://www.keeptalkinggame.com/).
+Sorry, it's a pun related to [a cool game](http://www.keeptalkinggame.com/).
