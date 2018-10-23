@@ -65,7 +65,7 @@ The spreading of the data needs to follow the following rules based on the `numb
 
 The second part consists of showing the camera locations as markers in Google Maps.
 Show _all_ cameras in the `div` with id _map_ in the given [code/index.html](code/index.html).
-You can find documentation for how to use Google Maps at [in de Google Maps documentatie](https://developers.google.com/maps/documentation/javascript/examples/marker-simple).
+You can find documentation for how to use Google Maps at [the Google Maps documentation](https://developers.google.com/maps/documentation/javascript/examples/marker-simple).
 
 ## Wut? Open Source?!
 
