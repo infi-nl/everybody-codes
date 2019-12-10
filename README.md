@@ -1,50 +1,43 @@
 # Keep Talking and Everybody Codes
 
-Een repository om te laten zien hoe jij code schrijft en over code denkt.
-Een startpunt voor een goed gesprek over ons vak!
+A repository for showing how you write and think about code.
+Used as a starting point for a good discussion about our job.
 
 ## Context
 
-Mogelijk ben je hier gekomen omdat je een tweede gesprek hebt met ons.
-In zo'n gesprek willen we het hebben over techniek.
-We willen zien hoe je code schrijft, hoe je er over denkt, wat je belangrijk vindt.
-Kortom: we willen een gesprek over code ergens mee kickstarten.
+You probably came here because you have a second interview with us. In the second interview, we'd like to dive more into technology. We want to see how you write code, how you think and what you think is important when writing code. To do this we'd like to kickstart our discussion about this.
 
-Er zijn vele manieren om dat te doen.
-Wellicht heb je open source projecten die je graag zou willen laten zien.
-Mogelijk heb je een vorig project waar je code van wilt delen met ons.
-En dat is een prima optie wat ons betreft.
-Maar misschien heb je dat (nog) niet.
-Daarmee komen we op deze repository: een startpunt om wat code te schrijven als basis voor een gesprek over techniek!
+There are many ways to do this. Maybe you have open source projects that you'd like to share. Maybe you'd like to show some code from a previous project. Those would be fine, but maybe you don't have something like that (yet). Therefore, we have this repository: an exercise that can use as a starting point to write some code that we can use as a subject for our discussion.
 
-"Is dit nu een _test_?" vraag je je misschien af?
-Het antwoord is wat ons betreft heel duidelijk: **nee**!
-_Het heeft wél iets weg van een test_ (en dat is ook de bedoeling!), maar er zijn een aantal belangrijke verschillen:
+You might wonder "Is this a _test_"?
+The answer is very clear to us: **no**!
+_It is something like a test_, but there are some important differences:
 
-- Het bepaalt niet of je wordt uitgenodigd (okay, tenzij je iets _heel_ geks doet). Dat hadden we namelijk al bedacht voordat we je hier naartoe stuurden. Je krijgt dus sowieso de kans om je keuzes toe te lichten.
-- We willen dat je dit **timeboxed: 2 tot 4 uur**. Het is logisch dat je dan misschien niet aan alles toe komt. Dat geeft niet. Focus op laten zien wat je belangrijk vindt, en vertel ons over je keuzes daarin.
-- Voor een 'test' kun je slagen of falen, of krijg je een eindcijfer. Dit is echter puur _input_ voor een volgend gesprek.
 
-## De Opdracht
+- It doesn't decide whether you get invited back (okay, unless you do something _really_ stupid). We already decided that you could come back when we sent you here. So you'll always get the chance to explain your choices.
+- We want you to **timebox this to 2 to 4 hours**. It makes sense that you don't get to finish all in that time. Focus on showing what you think is important, and explain those choices to us.
+- You can fail a 'test', but not this exercise, it's purely used as _input_ for our next talk.
 
-De opdracht bestaat uit drie onderdelen waarin je gebruik maakt van de dataset die je vindt in [data/cameras-defb.csv](data/cameras-defb.csv).
-Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn vooral bekend met C#, JavaScript, PHP, Java).
+## The exerise
+
+The exercise consists of 3 parts in which you use the dataset you can find at [data/cameras-defb.csv](data/cameras-defb.csv).
+You can chose a language and tech stack of your own choice (we are most familiar with C#, JavaScript, PHP, Java). 
 
 ## CLI
 
-Maak een programma of script dat de gebruiker in staat stelt om via de CLI te zoeken op een deel van een camera _name_, bijvoorbeeld:
+Make a program or script that allows the use to search through a CLI a part of the camera _name_, for example:
 
 ```sh
-# PHP via de CLI aanroepen
+# call PHP via CLI 
 php search.php --name Neude
 
-# Of als je .NET Core hebt gebruikt
+# Or if you used .NET Core
 dotnet Search --name Neude
 
 # Etc.
 ```
 
-Verwachte output:
+Expected output:
 
 ```none
 501 | UTR-CM-501 Neude rijbaan voor Postkantoor | 52.093421 | 5.118278
@@ -57,50 +50,50 @@ Verwachte output:
 
 ## API
 
-Serveer de data uit de csv vanuit een web-API, zodat een webapplicatie die data ergens kan ophalen.
+Serve the data through a Web-API, such that a web application can fetch the data.
 
-## Webapplicatie
+## Web application
 
-Het eerste onderdeel bestaat uit het ophalen van de data uit de API.
-Toon de data verspreid over vier kolommen in de gegeven [code/index.html](code/index.html).
-De spreiding van de data moet gebeuren volgens de onderstaande regels en op basis van het `number` van de camera:
+The first part consists of retrieving the data from the API from the previous step.
+Render the data spread over the four columns given in [code/index.html](code/index.html).
+The spreading of the data needs to follow the following rules based on the `number` of the camera:
 
-1. Als het `number` van de camera deelbaar is door 3, dan belandt hij in de eerste kolom
-2. Als het `number` van de camera deelbaar is door 5, dan belandt hij in de tweede kolom
-3. Als het `number` van de camera deelbaar is door zowel 3 als door 5, dan belandt hij in de derde kolom
-4. Als het `number` van de camera niet deelbaar is door 3 en niet deelbaar is door 5, dan belandt hij in de laatste kolom
+1. If `number` is divisible by 3, then it should go in the first column.
+2. If `number` is divisible by 5, then it should go in the second column.
+3. If `number` is divisible by 3 and divisible by 5, then it should go in the third column.
+4. If `number` is not divisible by 3 and is not  divisible by 5, then it should go in the last column.
 
-Het tweede onderdeel bestaat uit het tonen van de camera's als markers in Google Maps.
-Toon _alle_ camera's in de `div` met id _map_ in de gegeven [code/index.html](code/index.html).
-Uitleg over de werking, het aanmaken van een API-key en een codevoorbeeld vind je [in de Google Maps documentatie](https://developers.google.com/maps/documentation/javascript/examples/marker-simple).
+The second part consists of showing the camera locations as markers in Google Maps.
+Show _all_ cameras in the `div` with id _map_ in the given [code/index.html](code/index.html).
+You can find documentation for how to use Google Maps at [the Google Maps documentation](https://developers.google.com/maps/documentation/javascript/examples/marker-simple).
 
-## Wat? Open Source?!
+## Wut? Open Source?!
 
-Jazeker, deze opdracht is open source!
+Yes, this exercise is open source!
 
-"_Maar zijn jullie niet bang dat mensen dan gaan 'valsspelen'?_"
-Hah, nou, die kans is niet heel veel groter dan wanneer we een losse opdracht zouden _mailen_.
-We zijn graag open en eerlijk naar elkaar, en vertrouwen erop dat je gewoon zelf aan de slag gaat.
-Bovendien, gekke dingen komen in ons gesprek uiteindelijk vanzelf wel bovendrijven...
+"_Aren't you afraid people will 'cheat'?_"
+Well, the probability for that wouldn't be much higher that when we would _e-mail_ you an exercise.
+We value being open en honest to eachother, and trust that you'll do this exercise by yourself. 
+Besides that, things will show when we actually discuss what you made...
 
-"_Accepteren jullie dan ook.... pull requests?_"
-Maar natuurlijk!
-Het is alleen zeker niet het hoofddoel, dus focus vooral op de opdracht zelf.
-Maar heb je achteraf nog een voorstel voor hoe dit beter kan, of wil je een taalfoudt oplossen: stuur maar op die PR's!
-Of open even een issue als je twijfelt.
+"_Do you accept.... pull requests?_"
+Of couse!
+But it isn't the primary goal, so rather focus on the exercise itself.
+Should you have - after the exercise - some suggestions for how to improve, or would you like to correct a typo: keep them PR's coming!
+Or open an issue if you have questions.
 
-## Over die titel
+## About the title
 
 Huh?
 
 > Keep Talking and Everybody Codes
 
-"_Wat is dat nou weer?_"
-Sorry, woordgrapje gerelateerd aan [een toffe game](http://www.keeptalkinggame.com/).
+"_What's that?_"
+Sorry, it's a pun related to [a cool game](http://www.keeptalkinggame.com/).
 
-## Licentie en Copyright
+## License and Copyright
 
-Zie [LICENSE.txt](LICENSE.txt) voor volledige details.
-In het kort mag je gerust een fork onderhouden met een vertaling van de tekst, mits je je aan de voorwaarden van de license houdt.
-Voor enkel het aanpassen van de README betekent dat simpelweg dat je (a) het werk attribueert (een fork geeft al de origin aan dus da's prima) en (b) je eigen modificaties onder dezelfde voorwaarden voor anderen beschikbaar stelt.
+See [LICENSE.txt](LICENSE.txt) for complete details.
+In short, you may maintain a fork e.g. with a translation at your leasure, as long as you honor the terms of the licenses.
+For merely changing (translating) the README this simply means you should (a) attribute the work to [the original repository from Infi](https://github.com/infi-nl/everybody-codes) and (b) publish your modified version under the same terms to be used by others.
 _Sharing is caring!_ 🧡😊
