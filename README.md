@@ -97,3 +97,10 @@ Huh?
 
 "_Wat is dat nou weer?_"
 Sorry, woordgrapje gerelateerd aan [een toffe game](http://www.keeptalkinggame.com/).
+
+## Licentie en Copyright
+
+Zie [LICENSE.txt](LICENSE.txt) voor volledige details.
+In het kort mag je gerust een fork onderhouden met een vertaling van de tekst, mits je je aan de voorwaarden van de license houdt.
+Voor enkel het aanpassen van de README betekent dat simpelweg dat je (a) het werk attribueert (een fork geeft al de origin aan dus da's prima) en (b) je eigen modificaties onder dezelfde voorwaarden voor anderen beschikbaar stelt.
+_Sharing is caring!_ 🧡😊
