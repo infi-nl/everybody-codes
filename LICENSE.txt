@@ -1,0 +1,6 @@
+Different parts are licensed differently:
+
+- Video camera Icon by Martz90 available at http://www.iconarchive.com/show/circle-icons-by-martz90/video-camera-icon.html under a Creative Commons Attribution-Noncommercial-No Derivate 4.0. Full terms at http://creativecommons.org/licenses/by-nc-nd/4.0
+- Cameras CSV file by data.overheid.nl is from https://data.overheid.nl/data/dataset/camera-s licensed under the Open Definition 2.1, full terms at https://opendefinition.org/od/2.1/en/
+- The index.html file is Copyright 2018, Infi, licensed MIT. Full terms available at https://opensource.org/licenses/MIT
+- The README.md file at the top level is Copyright 2018, Infi, licensed CC-BY-SA (Creative Commons) 4.0. Full terms available at https://creativecommons.org/licenses/by-sa/4.0/
