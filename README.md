@@ -61,7 +61,10 @@ Serveer de data uit de csv vanuit een web-API, zodat een webapplicatie die data 
 
 ## Webapplicatie
 
-Het eerste onderdeel bestaat uit het ophalen van de data uit de API.
+Voor de front-end staat het je vrij om te kiezen of je wel of niet een framework gebruikt, en zo ja welk framework.
+Bedenk wat je graag wilt laten zien, c.q. waar je het graag in het tweede gesprek over wilt hebben.
+
+Het eerste onderdeel van de front-end bestaat uit het ophalen van de data uit de API.
 Toon de data verspreid over vier kolommen in de gegeven [code/index.html](code/index.html).
 De spreiding van de data moet gebeuren volgens de onderstaande regels en op basis van het `number` van de camera:
 
