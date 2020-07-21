@@ -106,3 +106,10 @@ Zie [LICENSE.txt](LICENSE.txt) voor volledige details.
 In het kort mag je gerust een fork onderhouden met een vertaling van de tekst, mits je je aan de voorwaarden van de license houdt.
 Voor enkel het aanpassen van de README betekent dat simpelweg dat je (a) het werk attribueert (een fork geeft al de origin aan dus da's prima) en (b) je eigen modificaties onder dezelfde voorwaarden voor anderen beschikbaar stelt.
 _Sharing is caring!_ 🧡😊
+
+## Vertalingen
+
+De volgende vertalingen van deze opdracht zijn door anderen gemaakt en onderhouden:
+
+- English translation: https://github.com/FreekPaans/everybody-codes
+- English translation: https://github.com/iChoosr-BVBA/everybody-codes (based on the above fork by FreekPaans)
