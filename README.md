@@ -107,7 +107,7 @@ _Sharing is caring!_ 🧡😊
 
 ## Vertalingen
 
-De volgende vertalingen van deze opdracht zijn anderen gemaakt en onderhouden:
+De volgende vertalingen van deze opdracht zijn door anderen gemaakt en onderhouden:
 
 - English translation: https://github.com/FreekPaans/everybody-codes
 - English translation: https://github.com/iChoosr-BVBA/everybody-codes (based on the above fork by FreekPaans)
