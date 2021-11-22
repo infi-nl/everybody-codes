@@ -1,0 +1,44 @@
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\Cameras.exe
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\Cameras.deps.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\Cameras.runtimeconfig.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\Cameras.runtimeconfig.dev.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\Cameras.dll
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\Cameras.pdb
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.csproj.AssemblyReference.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.AssemblyInfoInputs.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.AssemblyInfo.cs
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.csproj.CoreCompileInputs.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\staticwebassets\Cameras.StaticWebAssets.Manifest.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\staticwebassets\Cameras.StaticWebAssets.xml
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\scopedcss\bundle\Cameras.styles.css
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.RazorTargetAssemblyInfo.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.dll
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.pdb
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\obj\Debug\netcoreapp3.1\Cameras.genruntimeconfig.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Test projects\Cameras\Cameras\Cameras\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\Cameras.exe
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\Cameras.deps.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\Cameras.runtimeconfig.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\Cameras.runtimeconfig.dev.json
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\Cameras.dll
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\bin\Debug\netcoreapp3.1\Cameras.pdb
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.csproj.AssemblyReference.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.AssemblyInfoInputs.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.AssemblyInfo.cs
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.csproj.CoreCompileInputs.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\staticwebassets\Cameras.StaticWebAssets.Manifest.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\staticwebassets\Cameras.StaticWebAssets.xml
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\scopedcss\bundle\Cameras.styles.css
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.RazorTargetAssemblyInfo.cache
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.dll
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.pdb
+C:\Users\marije.jansen\surfdrive\01 - Marije Jansen\Everybody.Codes\Cameras\obj\Debug\netcoreapp3.1\Cameras.genruntimeconfig.cache
