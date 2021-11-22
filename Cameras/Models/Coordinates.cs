@@ -2,13 +2,12 @@
 {
     public class Coordinates
     {
-        public Coordinates(double latitude, double longitude)
+        public Coordinates(string latitude, string longitude)
         {
             this.Latitude = latitude;
-            this.Longitude = longitude;
+            this.Longitude = longitude; ;
         }
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
-
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
     }
 }

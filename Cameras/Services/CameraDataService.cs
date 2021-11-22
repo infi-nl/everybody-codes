@@ -27,7 +27,7 @@ namespace Cameras.Services
                 {
                     Number = int.TryParse(number, out var num) ? num : 0,
                     Name = values[0],
-                    Coordinates = new Coordinates(double.Parse(values[1].Replace(".", "")), double.Parse(values[2].Replace(".", ""))),
+                    Coordinates = new Coordinates(values[1], values[2]),
                 });
             }
 
