@@ -73,7 +73,7 @@ De spreiding van de data moet gebeuren volgens de onderstaande regels en op basi
 3. Als het `number` van de camera deelbaar is door zowel 3 als door 5, dan belandt hij in de derde kolom
 4. Als het `number` van de camera niet deelbaar is door 3 en niet deelbaar is door 5, dan belandt hij in de laatste kolom
 
-Het tweede onderdeel bestaat uit het tonen van de camera's als markers in op een Map.
+Het tweede onderdeel bestaat uit het tonen van de camera's als markers op een Map.
 Toon _alle_ camera's in de `div` met id `mapid` in de gegeven [code/index.html](code/index.html).
 
 Je mag een Map-tool naar eigen keuze gebruiken, maar heb je geen voorkeur dan raden we een combinatie aan van [de Leaflet JavaScript library](https://leafletjs.com/examples/quick-start/) met de plaatjes voor kaarten via [een gratis MapBox account](https://www.mapbox.com/studio/account/tokens/) die OpenStreetMap kaarten gebruikt.
