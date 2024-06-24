@@ -9,11 +9,13 @@
   <link rel="icon" type="image/x-icon" href="video-camera-icon.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <style type="text/css">
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
-      font-size: 0.8em;
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 16px;
+      font-family: Roboto, sans-serif;
     }
 
     a {
@@ -21,32 +23,15 @@
     }
 
     #source {
-      background: rgba(27, 31, 35, 0.08);
-      width: 290px;
+      background: #f2f2f2;
       padding: 8px;
-      border-radius: 20px;
-      margin: 15px auto;
+      margin: 16px auto;
       text-align: center;
+      font-size: 0.8rem;
     }
 
     #source a {
       font-weight: bold;
-    }
-
-    table td {
-      vertical-align: top;
-    }
-
-    table thead tr:nth-child(1) th {
-      height: 75px;
-      background-color: #272727;
-      color: #7F7F7C;
-      font-size: 3.0em;
-    }
-
-    table tr:nth-child(2) th {
-      text-align: left;
-      height: 25px;
     }
 
     h1 {
@@ -57,137 +42,122 @@
       background-position: 0 50%;
     }
 
-    #cameraTableContainer {
-      margin: 0 0 20px 0;
+    #camerasContainer {
+      margin-top: 16px;
+      display: flex;
       width: 100%;
-      padding: 0 20px;
-      height: 100%;
-      vertical-align: top;
+      gap: 16px;
+      justify-content: space-between;
     }
 
-    #cameraTableContainer>td {
-      width: 25%;
-      text-align: center;
-    }
-
-    #cameraTableContainer table {
-      width: 450px;
-      margin: auto;
-      height: 100%;
+    #camerasContainer table {
+      width: 100%;
       border-collapse: collapse;
+      font-size: 0.8rem;
     }
 
-    #cameraTableContainer table tbody tr {
-      height: 25px;
-      vertical-align: middle;
+    #camerasContainer table th {
+      background: #f2f2f2;
+      padding: 8px;
+      text-align: left;
     }
 
-    #cameraTableContainer table tbody td {
-      padding: 5px 0;
-    }
-
-    #cameraTableContainer table td:nth-child(1) {
-      height: 15px !important;
-      margin-right: 15px;
+    #camerasContainer table tr:first-child {
+      font-size: 1.5rem;
       font-weight: bold;
-      border-radius: 20px;
     }
 
-    #cameraTableContainer table tr:last-child td {
-      height: 100%;
-    }
-
-    #mapid {
-      margin: auto;
-      height: 500px;
+    #map {
       width: 100%;
+      height: 400px;
+      background-color: #f2f2ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #999;
     }
   </style>
 </head>
 
 <body>
-  <h1>Security cameras Utrecht</h1>
+  <h1>Security camera's Utrecht</h1>
   <div id="mapid"></div>
+  <main>
+    <div id="map"><span>TODO: Map komt hier.</span></div>
+    <div id="camerasContainer">
+      <table id="cameras-0-until-600">
+        <thead>
+          <tr>
+            <th colspan="4">Camera's tot 600</th>
+          </tr>
+          <tr>
+            <th>Nummer</th>
+            <th>Naam</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Camera's... -->
+        </tbody>
+      </table>
+      
+      <table id="cameras-600-until-700">
+        <thead>
+          <tr>
+            <th colspan="4">Camera's 600 tot 700</th>
+          </tr>
+          <tr>
+            <th>Nummer</th>
+            <th>Naam</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Camera's... -->
+        </tbody>
+      </table>
+      
+      <table id="cameras-700-until-800">
+        <thead>
+          <tr>
+            <th colspan="4">Camera's 700 tot 800</th>
+          </tr>
+          <tr>
+            <th>Nummer</th>
+            <th>Naam</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Camera's... -->
+        </tbody>
+      </table>
+      
+      <table id="cameras-rest">
+        <thead>
+          <tr>
+            <th colspan="4">Camera's (overigen)</th>
+          </tr>
+          <tr>
+            <th>Nummer</th>
+            <th>Naam</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Camera's... -->
+        </tbody>
+      </table>
+    </div>
+  </main>
   <div id="source">
     source:
     <a href="https://data.overheid.nl/dataset/utrecht-cameraregister-utrecht">https://data.overheid.nl/dataset/utrecht-cameraregister-utrecht</a>
   </div>
-  <main>
-    <table id="cameraTableContainer">
-      <tbody>
-        <tr>
-          <td>
-            <table id="column3">
-              <thead>
-                <tr>
-                  <th colspan="4">Cameras 3</th>
-                </tr>
-                <tr>
-                  <th>Number</th>
-                  <th>Name</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                </tr>
-              </thead>
-              <tbody>
-              </tbody>
-            </table>
-          </td>
-          <td>
-            <table id="column5">
-              <thead>
-                <tr>
-                  <th colspan="4">Cameras 5</th>
-                </tr>
-                <tr>
-                  <th>Number</th>
-                  <th>Name</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                </tr>
-              </thead>
-              <tbody>
-              </tbody>
-            </table>
-          </td>
-          <td>
-            <table id="column15">
-              <thead>
-                <tr>
-                  <th colspan="4">Cameras 3 &amp; 5</th>
-                </tr>
-                <tr>
-                  <th>Number</th>
-                  <th>Name</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                </tr>
-              </thead>
-              <tbody>
-              </tbody>
-            </table>
-          </td>
-          <td>
-            <table id="columnOther">
-              <thead>
-                <tr>
-                  <th colspan="4">Other Cameras</th>
-                </tr>
-                <tr>
-                  <th>Number</th>
-                  <th>Name</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                </tr>
-              </thead>
-              <tbody>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </main>
 </body>
 
 </html>

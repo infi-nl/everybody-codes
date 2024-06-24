@@ -64,14 +64,19 @@ Serveer de data uit de csv vanuit een REST API, zodat een webapplicatie die data
 Voor de front-end staat het je vrij om te kiezen of je wel of niet een framework gebruikt, en zo ja welk framework.
 Bedenk wat je graag wilt laten zien, en waar je het graag in het technische gesprek over wilt hebben.
 
-Het eerste onderdeel van de front-end bestaat uit het ophalen van de data uit de API.
-Toon de data verspreid over vier kolommen in de gegeven [code/index.html](code/index.html).
-De spreiding van de data moet gebeuren volgens de onderstaande regels en op basis van het `number` van de camera:
+### Pagina opzetten met data-tabel
 
-1. Als het `number` van de camera deelbaar is door 3, dan belandt hij in de eerste kolom
-2. Als het `number` van de camera deelbaar is door 5, dan belandt hij in de tweede kolom
-3. Als het `number` van de camera deelbaar is door zowel 3 als door 5, dan belandt hij in de derde kolom
-4. Als het `number` van de camera niet deelbaar is door 3 en niet deelbaar is door 5, dan belandt hij in de laatste kolom
+Het eerste onderdeel van de front-end bestaat uit het ophalen van de data uit de API.
+Toon de data verspreid over vijf kolommen op de home pagina van de applicatie.
+_Optioneel_ kun je [code/index.html] als startpunt gebruiken.
+De spreiding van de data moet gebeuren volgens de onderstaande regels en op basis van het nummer van de camera:
+
+1. Kolom met camera's met nummers tot 600
+2. Kolom met camera's met nummers 600 tot 700
+3. Kolom met camera's met nummers 700 tot 800
+4. Alle overige camera's
+
+### Map met camera's plotten
 
 Het tweede onderdeel bestaat uit het tonen van de camera's als markers op een Map.
 Toon _alle_ camera's in de `div` met id `mapid` in de gegeven [code/index.html](code/index.html).
