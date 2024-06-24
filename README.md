@@ -53,6 +53,7 @@ Verwachte output:
 505 | UTR-CM-505 Neude / Drakenburgstraat / Vinkenurgstraat | 52.092843 | 5.118351
 506 | UTR-CM-506 Vinkenburgstraat / Neude | 52.092378 | 5.117902
 507 | UTR-CM-507 Vinkenburgstraat richting Neude | 52.092234 | 5.117766
+etc.
 ```
 
 ## API
@@ -78,11 +79,15 @@ De spreiding van de data moet gebeuren volgens de onderstaande regels en op basi
 
 ### Map met camera's plotten
 
-Het tweede onderdeel bestaat uit het tonen van de camera's als markers op een Map.
-Toon _alle_ camera's in de `div` met id `mapid` in de gegeven [code/index.html](code/index.html).
+Het tweede onderdeel bestaat uit het tonen van de camera's als markers op een map.
+Toon _alle_ camera's als markers op een kaart van Utrecht, boven de tabel met camera-data.
+De optionele opzet in [code/index.html] geeft een indicatie van hoe dit eruit moet zien.
 
-Je mag een Map-tool naar eigen keuze gebruiken, maar heb je geen voorkeur dan raden we een combinatie aan van [de Leaflet JavaScript library](https://leafletjs.com/examples/quick-start/) met de plaatjes voor kaarten via [een gratis MapBox account](https://www.mapbox.com/studio/account/tokens/) die OpenStreetMap kaarten gebruikt.
-In dat geval is [52.0914 bij 5.1115 een view gecentreerd op Utrecht](https://www.openstreetmap.org/#map=14/52.0914/5.1115).
+Je mag een Map-tool naar eigen keuze gebruiken.
+Heb je geen idee of geen voorkeur kun je goed de [quick start van Leaflet gebruiken](https://leafletjs.com/examples/quick-start/).
+Die library suggereert dat je de OpenStreetMaps kaarten gebruikt, wat voor deze opdracht prima werkt, en op moment van schrijven geen ingewikkelde sign-up of credit card vereist.
+
+Tip: [coordinaten 52.0914 bij 5.1115 zijn gecentreerd op Utrecht](https://www.openstreetmap.org/#map=14/52.0914/5.1115).
 
 ## Wat? Open Source?!
 
