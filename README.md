@@ -28,7 +28,7 @@ _Het heeft wél iets weg van een test_ (en dat is ook de bedoeling!), maar er zi
 ## De Opdracht
 
 De opdracht bestaat uit drie onderdelen waarin je gebruik maakt van de dataset die je vindt in [data/cameras-defb.csv](data/cameras-defb.csv).
-Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn vooral bekend met C#, JavaScript, PHP, Java).
+Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn zelf voornamelijk bekend met C#, JavaScript, TypeScript, PHP, Python, Java).
 
 ## CLI
 
@@ -57,12 +57,12 @@ Verwachte output:
 
 ## API
 
-Serveer de data uit de csv vanuit een web-API, zodat een webapplicatie die data ergens kan ophalen.
+Serveer de data uit de csv vanuit een REST API, zodat een webapplicatie die data ergens kan ophalen.
 
 ## Webapplicatie
 
 Voor de front-end staat het je vrij om te kiezen of je wel of niet een framework gebruikt, en zo ja welk framework.
-Bedenk wat je graag wilt laten zien, c.q. waar je het graag in het tweede gesprek over wilt hebben.
+Bedenk wat je graag wilt laten zien, en waar je het graag in het technische gesprek over wilt hebben.
 
 Het eerste onderdeel van de front-end bestaat uit het ophalen van de data uit de API.
 Toon de data verspreid over vier kolommen in de gegeven [code/index.html](code/index.html).
