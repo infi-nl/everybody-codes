@@ -28,7 +28,7 @@ _Het heeft wél iets weg van een test_ (en dat is ook de bedoeling!), maar er zi
 ## De Opdracht
 
 De opdracht bestaat uit drie onderdelen waarin je gebruik maakt van de dataset die je vindt in [data/cameras-defb.csv](data/cameras-defb.csv).
-Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn vooral bekend met C#, JavaScript, PHP, Java).
+Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn zelf voornamelijk bekend met C#, JavaScript, TypeScript, PHP, Python, Java).
 
 ## CLI
 
@@ -53,31 +53,41 @@ Verwachte output:
 505 | UTR-CM-505 Neude / Drakenburgstraat / Vinkenurgstraat | 52.092843 | 5.118351
 506 | UTR-CM-506 Vinkenburgstraat / Neude | 52.092378 | 5.117902
 507 | UTR-CM-507 Vinkenburgstraat richting Neude | 52.092234 | 5.117766
+etc.
 ```
 
 ## API
 
-Serveer de data uit de csv vanuit een web-API, zodat een webapplicatie die data ergens kan ophalen.
+Serveer de data uit de csv vanuit een REST API, zodat een webapplicatie die data ergens kan ophalen.
 
 ## Webapplicatie
 
 Voor de front-end staat het je vrij om te kiezen of je wel of niet een framework gebruikt, en zo ja welk framework.
-Bedenk wat je graag wilt laten zien, c.q. waar je het graag in het tweede gesprek over wilt hebben.
+Bedenk wat je graag wilt laten zien en waar je het graag in het technische gesprek over wilt hebben.
+
+### Pagina opzetten met data-tabel
 
 Het eerste onderdeel van de front-end bestaat uit het ophalen van de data uit de API.
-Toon de data verspreid over vier kolommen in de gegeven [code/index.html](code/index.html).
-De spreiding van de data moet gebeuren volgens de onderstaande regels en op basis van het `number` van de camera:
+Toon de data verspreid over vijf kolommen op de homepagina van de applicatie.
+_Optioneel_ kun je [code/index.html](https://github.com/infi-nl/everybody-codes/blob/main/code/index.html) als startpunt gebruiken.
+De spreiding van de data moet gebeuren volgens de onderstaande regels en op basis van het nummer van de camera:
 
-1. Als het `number` van de camera deelbaar is door 3, dan belandt hij in de eerste kolom
-2. Als het `number` van de camera deelbaar is door 5, dan belandt hij in de tweede kolom
-3. Als het `number` van de camera deelbaar is door zowel 3 als door 5, dan belandt hij in de derde kolom
-4. Als het `number` van de camera niet deelbaar is door 3 en niet deelbaar is door 5, dan belandt hij in de laatste kolom
+1. Kolom met camera's met nummers tot 600
+2. Kolom met camera's met nummers 600 tot 700
+3. Kolom met camera's met nummers 700 tot 800
+4. Alle overige camera's
 
-Het tweede onderdeel bestaat uit het tonen van de camera's als markers op een Map.
-Toon _alle_ camera's in de `div` met id `mapid` in de gegeven [code/index.html](code/index.html).
+### Map met camera's plotten
 
-Je mag een Map-tool naar eigen keuze gebruiken, maar heb je geen voorkeur dan raden we een combinatie aan van [de Leaflet JavaScript library](https://leafletjs.com/examples/quick-start/) met de plaatjes voor kaarten via [een gratis MapBox account](https://www.mapbox.com/studio/account/tokens/) die OpenStreetMap kaarten gebruikt.
-In dat geval is [52.0914 bij 5.1115 een view gecentreerd op Utrecht](https://www.openstreetmap.org/#map=14/52.0914/5.1115).
+Het tweede onderdeel bestaat uit het tonen van de camera's als markers op een map.
+Toon _alle_ camera's als markers op een kaart van Utrecht, boven de tabel met camera-data.
+De optionele opzet in [code/index.html](https://github.com/infi-nl/everybody-codes/blob/main/code/index.html) geeft een indicatie van hoe dit eruit moet zien.
+
+Je mag een Map-tool naar eigen keuze gebruiken.
+Heb je geen idee of geen voorkeur kun je goed de [quick start van Leaflet gebruiken](https://leafletjs.com/examples/quick-start/).
+Die library suggereert dat je de OpenStreetMaps kaarten gebruikt, wat voor deze opdracht prima werkt, en op moment van schrijven geen ingewikkelde sign-up of credit card vereist.
+
+Tip: [coördinaten 52.0914 bij 5.1115 zijn gecentreerd op Utrecht](https://www.openstreetmap.org/#map=14/52.0914/5.1115).
 
 ## Wat? Open Source?!
 
