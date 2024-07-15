@@ -87,7 +87,7 @@ Je mag een Map-tool naar eigen keuze gebruiken.
 Heb je geen idee of geen voorkeur kun je goed de [quick start van Leaflet gebruiken](https://leafletjs.com/examples/quick-start/).
 Die library suggereert dat je de OpenStreetMaps kaarten gebruikt, wat voor deze opdracht prima werkt, en op moment van schrijven geen ingewikkelde sign-up of credit card vereist.
 
-Tip: [coordinaten 52.0914 bij 5.1115 zijn gecentreerd op Utrecht](https://www.openstreetmap.org/#map=14/52.0914/5.1115).
+Tip: [coördinaten 52.0914 bij 5.1115 zijn gecentreerd op Utrecht](https://www.openstreetmap.org/#map=14/52.0914/5.1115).
 
 ## Wat? Open Source?!
 
