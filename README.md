@@ -81,7 +81,7 @@ De spreiding van de data moet gebeuren volgens de onderstaande regels en op basi
 
 Het tweede onderdeel bestaat uit het tonen van de camera's als markers op een map.
 Toon _alle_ camera's als markers op een kaart van Utrecht, boven de tabel met camera-data.
-De optionele opzet in [code/index.html] geeft een indicatie van hoe dit eruit moet zien.
+De optionele opzet in [code/index.html](https://github.com/infi-nl/everybody-codes/blob/main/code/index.html) geeft een indicatie van hoe dit eruit moet zien.
 
 Je mag een Map-tool naar eigen keuze gebruiken.
 Heb je geen idee of geen voorkeur kun je goed de [quick start van Leaflet gebruiken](https://leafletjs.com/examples/quick-start/).
