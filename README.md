@@ -63,7 +63,7 @@ Serveer de data uit de csv vanuit een REST API, zodat een webapplicatie die data
 ## Webapplicatie
 
 Voor de front-end staat het je vrij om te kiezen of je wel of niet een framework gebruikt, en zo ja welk framework.
-Bedenk wat je graag wilt laten zien, en waar je het graag in het technische gesprek over wilt hebben.
+Bedenk wat je graag wilt laten zien en waar je het graag in het technische gesprek over wilt hebben.
 
 ### Pagina opzetten met data-tabel
 
