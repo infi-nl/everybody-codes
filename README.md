@@ -69,7 +69,7 @@ Bedenk wat je graag wilt laten zien en waar je het graag in het technische gespr
 
 Het eerste onderdeel van de front-end bestaat uit het ophalen van de data uit de API.
 Toon de data verspreid over vijf kolommen op de home pagina van de applicatie.
-_Optioneel_ kun je [code/index.html] als startpunt gebruiken.
+_Optioneel_ kun je [code/index.html](https://github.com/infi-nl/everybody-codes/blob/main/code/index.html) als startpunt gebruiken.
 De spreiding van de data moet gebeuren volgens de onderstaande regels en op basis van het nummer van de camera:
 
 1. Kolom met camera's met nummers tot 600
