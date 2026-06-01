@@ -25,6 +25,18 @@ _Het heeft wél iets weg van een test_ (en dat is ook de bedoeling!), maar er zi
 - We willen dat je dit **timeboxed: 2 tot 4 uur**. Het is logisch dat je dan misschien niet aan alles toe komt. Dat geeft niet. Focus op laten zien wat je belangrijk vindt, en vertel ons over je keuzes daarin.
 - Voor een 'test' kun je slagen of falen, of krijg je een eindcijfer. Dit is echter puur _input_ voor een volgend gesprek.
 
+### Gebruik van GenAI
+
+In de eerste plek willen we in het gesprek meer leren over hoe _jij zelf_ code schrijft en begrijpt.
+Zorg dus dat je minstens een significant stuk van de opdracht zo doet dat we daar in het gesprek aandacht aan kunnen besteden samen.
+Met een focus op code die echt van jou is.
+
+Daarnaast is AI ook een zeer belangrijke nieuwe technologie om te kennen en te beheersen.
+We zien dus zeker ook graag hoe en wanneer je deze nieuwe set tools gebruikt (of wanneer je ze besluit niet te gebruiken).
+Voel je dus vrij om AI voor stukken van de opdracht te gebruiken, in welke variatie (als ondersteunende tool, tot en met volledig agentic workflows) dan ook.
+
+Oh, en als kosten voor dergelijke tool een obstakel zouden zijn (je wilt ze gebruiken, maar de middelen niet hebt): laat het dan even weten, dan regelen we daar iets voor!
+
 ## De Opdracht
 
 De opdracht bestaat uit drie onderdelen waarin je gebruik maakt van de dataset die je vindt in [data/cameras-defb.csv](data/cameras-defb.csv).
